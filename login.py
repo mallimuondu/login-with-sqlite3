@@ -4,11 +4,11 @@ cursour = conn.cursor()
     
 cursour.execute("CREATE TABLE IF NOT EXISTS login(username VARCHAR, password VARCHAR)")
 
-cursour.execute("INSERT INTO login VALUES('nesh', 'minecaft')")
+cursour.execute("INSERT INTO login VALUES('nesh', 'a')")
                 
-cursour.execute("INSERT INTO login VALUES('Nero_nesh', 'roblox')")
+cursour.execute("INSERT INTO login VALUES('Nero Nesh', 'b')")
                 
-cursour.execute("INSERT INTO login VALUES('Nesh', 'truck driver')")
+cursour.execute("INSERT INTO login VALUES('Nesh', 'c')")
 
 conn.commit()
                 
